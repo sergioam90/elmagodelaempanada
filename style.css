@@ -32,44 +32,44 @@ h3{
   margin: 0 0;
 }
 #imagen1{
-  background-image: url(imagenes/pizzas.jpg);
+  background-image: url(imagenes/pizzas.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   height: 100%;
-  background-color: #060;
+  background-color: #FFFFFF;
 }
 #imagen2{
-  background-image: url(imagenes/empanadas.jpg);
+  background-image: url(imagenes/empanadas.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   height: 100%;
-  background-color: #060;
+  background-color: #FFFFFF;
 }
 #imagen3{
-  background-image: url(imagenes/tartas.jpg);
+  background-image: url(imagenes/tartas.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   height: 100%;
-  background-color: #060;
+  background-color: #FFFFFF;
 }
 #imagen4{
-  background-image: url(imagenes/hamburpizzas.jpg);
+  background-image: url(imagenes/hamburpizzas.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
   height: 100%;
-  background-color: #060;
+  background-color: #FFFFFF;
 }
 @media (max-width: 992px) {
 #imagen4, #imagen3{
@@ -220,22 +220,22 @@ list-style-type: disc;
 list-style-type: none;
   }
   #empanadas{
-    background-image: url(imagenes/productos/empanadas.jpg);
+    background-image: url(imagenes/productos/empanadas.png);
     background-size: 100% auto;
     background-position: 50% 30%;
   }
     #pizzas{
-    background-image: url(imagenes/productos/pizzas.jpg);
+    background-image: url(imagenes/productos/pizzas.png);
     background-size: 100% auto;
     background-position: center center;
   }
       #hamburpizzas{
-    background-image: url(imagenes/productos/hamburpizzas.jpg);
+    background-image: url(imagenes/productos/hamburpizzas.png);
     background-size: 100% auto;
     background-position: center center;
   }
         #tartas{
-    background-image: url(imagenes/productos/tartas.jpg);
+    background-image: url(imagenes/productos/tartas.png);
     background-size: 100% auto;
     background-position: center 40%;
   }
