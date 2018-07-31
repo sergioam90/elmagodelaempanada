@@ -106,7 +106,7 @@ h2 {
 }
 
 #historia {
-    background-image: url(imagenes/fondohistoria.png);
+    background-image: url(imagenes/nuevo/fondohistoria.png);
     background-size: cover;
     background-position: center center;
     padding-left: 3%;
@@ -237,27 +237,27 @@ nav ul li a {
     list-style-type: none;
 }
 #empanadas {
-    background-image: url(imagenes/productos/empanadas.png);
+    background-image: url(imagenes/productos/nuevo/empanadas.png);
     background-size: 100% auto;
     background-position: 50% 30%;
 }
 #pizzas {
-    background-image: url(imagenes/productos/pizzas.png);
+    background-image: url(imagenes/productos/nuevo/pizzas.png);
     background-size: 100% auto;
     background-position: center center;
 }
 #hamburpizzas {
-    background-image: url(imagenes/productos/hamburpizzas.png);
+    background-image: url(imagenes/productos/nuevo/hamburpizzas.png);
     background-size: 100% auto;
     background-position: center center;
 }
 #tartas {
-    background-image: url(imagenes/productos/tartas.png);
+    background-image: url(imagenes/productos/nuevo/tartas.png);
     background-size: 100% auto;
     background-position: center 40%;
 }
 #helados {
-    background-image: url(imagenes/productos/helados.jpg);
+    background-image: url(imagenes/productos/nuevo/helados.jpg);
     background-size: 100% auto;
     background-position: center center;
 }
