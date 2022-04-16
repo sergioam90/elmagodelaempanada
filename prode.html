@@ -5,13 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
 
-	<link type="text/css" rel="stylesheet" href="prueba/css/prodebi1.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/prodebi1.css"  media="screen,projection"/>
 
 
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
-	<link type="text/css" rel="stylesheet" href="prueba/css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 	<!--Let browser know website is optimized for mobile-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
@@ -19,34 +19,33 @@
 	<link href="http://db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular" rel="stylesheet" type="text/css"/>
 
 </head>
-
 <body class="fontqatar2">
 
 <!--ENCABEZADO-->
-<div class="navbar-fixed">
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
-  <li class="divider"></li>
-  <li><a href="#!">three</a></li>
-</ul>
-<nav class="white">
+<nav class="white" role="navigation">
 <div class="nav-wrapper container">
-	<img src="prueba/img/logo.png" alt="" class="brand-logo" style="height: 100%;">
-<ul class="right">
-	<li><a href="#" class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons grey-text text-darken-4">menu</i></a></li>
+	<a href="index.html" title=""><img src="img/logo.png" alt="" class="left-align" style="height: 100%;position: absolute;display: inline-block;font-size: 2.1rem;padding: 0;"></a>
+	
+	<ul id="nav-mobile" class="sidenav">
+        <li><a href="#prode">Resultados</a></li>
+        <li><a href="#reglas">Reglas</a></li>
+        <li><a href="formulario.html">Participar</a></li>
+        <li><a href="#premios">Premios</a></li>
+        <li>
+        	
+						<div class="row center" style="padding-top: 2rem;">
+						<img src="img/prodebi.png" style="max-height: 3rem;"  alt="">
+						</div>
 
-</ul>
-
-
-
-</div>
-</nav>
+        </li>	
+  </ul>
+  <a href="#" data-target="nav-mobile" class="right-align sidenav-trigger  black-text"><i class="material-icons">menu</i></a>
+  </nav>
 </div>
 <!--FIN ENCABEZADO-->
 
 <!--PREMIOS-->
-<div class="fondomarca">
+<div id="premios" class="fondomarca">
 <div class="section container">
 <div class="row ">
 <div class="col s12 center">
@@ -55,9 +54,9 @@
 </div>
 </div>
 <div class="row center white-text">
-	<div class="col s10 offset-s1 m4">
+	<div class="col s8 offset-s2 m4">
 		<div class="col s12">
-			<img src="prueba/img/premio1.png" alt="" class="responsive-img circle">
+			<img src="img/premio1.png" alt="" class="responsive-img circle">
 		</div>
 		<div class="col s12">
 			<h5 class="fontqatar">PREMIO 1</h5>
@@ -67,7 +66,7 @@
 
 	<div class="col s6 m4">
 		<div class="col s12">
-			<img src="prueba/img/premio1.png" alt="" class="responsive-img circle">
+			<img src="img/premio1.png" alt="" class="responsive-img circle">
 		</div>
 		<div class="col s12">
 			<h5 class="fontqatar">PREMIO 1</h5>
@@ -77,7 +76,7 @@
 
 	<div class="col s6 m4">
 		<div class="col s12">
-			<img src="prueba/img/premio1.png" alt="" class="responsive-img circle">
+			<img src="img/premio1.png" alt="" class="responsive-img circle">
 		</div>
 		<div class="col s12">
 			<h5 class="fontqatar">PREMIO 1</h5>
@@ -88,10 +87,10 @@
 
 <div class="row">
 	<div class="col s6 right-align">
-		<a class="waves-effect waves-light btn-large white black-text">PARTICIPAR</a>
+		<a class="waves-effect waves-light btn-large white black-text" href="formulario.html">PARTICIPAR</a>
 	</div>
 	<div class="col s6 left-align">
-		<a class="waves-effect waves-light btn-large grey darken-4 white-text">RESULTADOS</a>
+		<a class="waves-effect waves-light btn-large grey darken-4 white-text" href="#prode">RESULTADOS</a>
 	</div>
 </div>
 <div class="row center">
@@ -107,22 +106,44 @@
 <!--IFRAME POWER BI-->
 
 
-<div class="content">
-<div class="row ">
+
+<div id="prode" class="content">
+<div class="row">
+	<h4 class="fontqatar center">Prode Qatar 2022</h4>
+</div>
+<span class="iframe_desktop">
+
+<div class="row">
 <div class="col s12 m6 offset-m3 center">
-<iframe title="00. Demo - Prode" width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNDYyZTc0N2QtZmYzMS00YzVkLThiNmMtMzg5OTRlMGQxOTAzIiwidCI6IjM3ODFiYzE4LTZmZjAtNDM1MS1hM2NjLTczNzYzMjQ2NjY0YiJ9&pageName=ReportSection145853373288094476a6" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="Prode" width="100%" height="700px" src="https://app.powerbi.com/view?r=eyJrIjoiNDYyZTc0N2QtZmYzMS00YzVkLThiNmMtMzg5OTRlMGQxOTAzIiwidCI6IjM3ODFiYzE4LTZmZjAtNDM1MS1hM2NjLTczNzYzMjQ2NjY0YiJ9&pageName=ReportSection145853373288094476a6" frameborder="0" allowFullScreen="true"></iframe>
 </div>
 </div>
+
+</span>
+
+<span class="iframe_mobile">
+
+<div class="row">
+<div class="col s12 m6 offset-m3 center">
+<iframe title="00. Demo - Prode" width="100%" height="650px" src="https://app.powerbi.com/view?r=eyJrIjoiNDYyZTc0N2QtZmYzMS00YzVkLThiNmMtMzg5OTRlMGQxOTAzIiwidCI6IjM3ODFiYzE4LTZmZjAtNDM1MS1hM2NjLTczNzYzMjQ2NjY0YiJ9&pageName=ReportSection145853373288094476a6" frameborder="0" allowFullScreen="true"></iframe>
 </div>
+</div>
+<div style="width: 100%;height: 80px;position: relative;background: red;margin-top: -90px; padding: 0;">	
+</div>
+</span>
+
+</div>
+
 
 
 <!--FIN IFRAME POWER BI-->
 
 <!--REGLAS-->
-<div class="container">
+<div id="reglas" style="width: 100%;position: relative;margin-top: -90px; background-image: url(img/vector-fondo.jpg) ; background-repeat: repeat;">
+<div class="container white-text" >
 <div class="section">
 <div class="row ">
-<div class="col s12 center">
+<div class="col s12 center" style="margin-top: -50px;">
 <h3><i class="mdi-content-send brown-text"></i></h3>
 <h4 class="fontqatar">Reglas</h4>
 
@@ -154,10 +175,10 @@ Si Argentina gana 3 a 0 frente a España:
 </div>
 <div class="row">
 	<div class="col s6 right-align">
-		<a class="waves-effect waves-light btn-large white black-text">COMPLETAR PRODE</a>
+		<a class="waves-effect waves-light btn-large white black-text" href="formulario.html">COMPLETAR PRODE</a>
 	</div>
 	<div class="col s6 left-align">
-		<a class="waves-effect waves-light btn-large fondomarca white-text">VER RESULTADOS</a>
+		<a class="waves-effect waves-light btn-large fondomarca white-text" href="#prode">VER RESULTADOS</a>
 	</div>
 </div>
 <div class="row center" style="display:none;">
@@ -166,19 +187,28 @@ Si Argentina gana 3 a 0 frente a España:
 	</div>
 </div>	
 </div>
+</div>	
 </div>
+
+
 <!--FIN REGLAS-->
 
 
-<footer class="page-footer teal grey darken-4" style="padding-top: 0;">
+<footer class="page-footer teal grey darken-4" >
 <div class="container center-align">
 <div class="row" style="margin-bottom: 0; margin-top: 0; padding-top: 1rem; padding-bottom: 1rem;">
-<div class="col s6 right-align">
-<p class="grey-text text-darken-3">POWERED BI:</p>
+<div class="col s6 offset-s3">
+	<div class="row">
+		<div class="col s6">
+			<p class="grey-text text-darken-3 right-align" style="padding-right: 10px;">Desarrollado por:</p>
+		</div>
+		<div class="col s6 left-align">
+<img src="img/prodebi.png" style="max-height: 3rem;"  alt="">
 </div>
-<div class="col s6 left-align">
-<img src="prueba/img/prodebi.png" style="max-height: 3rem;"  alt="">
+	</div>
+
 </div>
+
 
 </div>
 </div>
@@ -187,7 +217,9 @@ Si Argentina gana 3 a 0 frente a España:
 
 
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
 </body>
 
