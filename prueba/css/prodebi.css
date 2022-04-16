@@ -1,3 +1,13 @@
 .fontqatar {
   font-family: 'Qatar2022', sans-serif;
 }
+
+@media (min-width: 700px) {
+  .iframe_desktop {display: block;}
+  .iframe_mobile {display: none;}
+}
+
+@media (max-width: 699px) {
+  .iframe_desktop {display: none;}
+  .iframe_mobile {display: block;}
+}
