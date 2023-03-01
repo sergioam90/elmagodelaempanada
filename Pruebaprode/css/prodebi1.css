@@ -1,0 +1,21 @@
+.fontqatar {
+  font-family: 'Qatar2022', sans-serif;
+}
+
+.fontqatar2 {
+  font-family: 'Graphik Web Regular', sans-serif;
+}
+
+.fondomarca {
+  background-image: linear-gradient(to right, #fdc763 , #f5ad00);
+}
+
+@media (min-width: 700px) {
+  .iframe_desktop {display: block;}
+  .iframe_mobile {display: none;}
+}
+
+@media (max-width: 699px) {
+  .iframe_desktop {display: none;}
+  .iframe_mobile {display: block;}
+}
