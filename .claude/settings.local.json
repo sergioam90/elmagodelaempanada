@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for item:*)",
+      "Bash(do mv:*)",
+      "Bash(done)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls imagenes/logo*)"
+    ]
+  }
+}
