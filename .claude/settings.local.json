@@ -5,7 +5,10 @@
       "Bash(do mv:*)",
       "Bash(done)",
       "mcp__Claude_Preview__preview_start",
-      "Bash(ls imagenes/logo*)"
+      "Bash(ls imagenes/logo*)",
+      "Bash(for f:*)",
+      "Bash(do sed:*)",
+      "Bash(sed -i 's|<li role=\"\"none\"\"><a href=\"\"tel:+542914565393\"\" role=\"\"menuitem\"\">Llamar</a></li>||g' \"$f\")"
     ]
   }
 }

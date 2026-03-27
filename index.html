@@ -104,11 +104,10 @@
             </a>
             <nav class="header__nav" aria-label="Navegacion principal">
                 <ul class="header__menu" id="nav-menu" role="menubar">
-                    <li role="none"><a href="#horarios" role="menuitem">Horarios</a></li>
                     <li role="none"><a href="#productos" role="menuitem">Productos</a></li>
                     <li role="none"><a href="#historia" role="menuitem">Historia</a></li>
+                    <li role="none"><a href="/blog/" role="menuitem">Blog</a></li>
                     <li role="none"><a href="#como-llegar" role="menuitem">Como llegar</a></li>
-                    <li role="none"><a href="tel:+542914565393" role="menuitem">Llamar</a></li>
                     <li role="none"><a href="https://pedir.tucan.la/menu/el-mago-de-la-empanada/Take%20Away" class="btn btn--primary btn--sm" role="menuitem" target="_blank" rel="noopener">Pedir Online</a></li>
                 </ul>
             </nav>
@@ -237,7 +236,7 @@
                 <div class="grid grid--3">
                     <article class="product-card">
                         <div class="product-card__img-wrap">
-                            <img src="imagenes/empanadas.png" alt="Catorcena: 12 empanadas mas 2 de regalo y Coca Cola" loading="lazy" width="400" height="300">
+                            <img src="imagenes/productos/empanadas.png" alt="Catorcena: 12 empanadas mas 2 de regalo y Coca Cola" loading="lazy" width="400" height="300">
                         </div>
                         <div class="product-card__body">
                             <span class="product-card__badge">Promo</span>
@@ -248,7 +247,7 @@
                     </article>
                     <article class="product-card">
                         <div class="product-card__img-wrap">
-                            <img src="imagenes/veganas.png" alt="Empanadas veganas de alubias negras y soja texturizada" loading="lazy" width="400" height="300">
+                            <img src="imagenes/productos/veganas.png" alt="Empanadas veganas de alubias negras y soja texturizada" loading="lazy" width="400" height="300">
                         </div>
                         <div class="product-card__body">
                             <span class="product-card__badge product-card__badge--green">Vegano</span>
@@ -259,7 +258,7 @@
                     </article>
                     <article class="product-card">
                         <div class="product-card__img-wrap">
-                            <img src="imagenes/desmechada1.png" alt="Empanada de carne desmechada al vino tinto" loading="lazy" width="400" height="300">
+                            <img src="imagenes/productos/desmechada1.png" alt="Empanada de carne desmechada al vino tinto" loading="lazy" width="400" height="300">
                         </div>
                         <div class="product-card__body">
                             <span class="product-card__badge product-card__badge--gold">Nuevo</span>
@@ -286,56 +285,77 @@
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">Excelente calidad! De lo mejor de Bahia Blanca. Ademas tienen opciones veganas muy ricas.</p>
                             <div class="review-card__author">
-                                <strong>Carlos Mazzella</strong>
-                                <span>Hace un mes</span>
+                                <div class="review-card__avatar" style="background:#5c6bc0">CM</div>
+                                <div class="review-card__info">
+                                    <strong>Carlos Mazzella</strong>
+                                    <span>Hace un mes</span>
+                                </div>
                             </div>
                         </article>
                         <article class="review-card">
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">Una excelente atencion y las empanadas una delicia... aguante el mago de la empanada!</p>
                             <div class="review-card__author">
-                                <strong>Belen</strong>
-                                <span>Hace 2 meses</span>
+                                <div class="review-card__avatar" style="background:#e91e63">B</div>
+                                <div class="review-card__info">
+                                    <strong>Belen</strong>
+                                    <span>Hace 2 meses</span>
+                                </div>
                             </div>
                         </article>
                         <article class="review-card">
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">Muy buena experiencia. Totalmente recomendable en calidad de masa, relleno y atencion. Tenes un nuevo cliente. Gracias y continua asi.</p>
                             <div class="review-card__author">
-                                <strong>Raul Bonin</strong>
-                                <span>Hace 4 meses</span>
+                                <div class="review-card__avatar" style="background:#00897b">RB</div>
+                                <div class="review-card__info">
+                                    <strong>Raul Bonin</strong>
+                                    <span>Hace 4 meses</span>
+                                </div>
                             </div>
                         </article>
                         <article class="review-card">
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">Excelente lugar para comprar empanadas en Bahia Blanca. Hacen nombre a su gran experiencia y tienen mucha variedad.</p>
                             <div class="review-card__author">
-                                <strong>Ruben Kuntz</strong>
-                                <span>Hace 4 meses</span>
+                                <div class="review-card__avatar" style="background:#f57c00">RK</div>
+                                <div class="review-card__info">
+                                    <strong>Ruben Kuntz</strong>
+                                    <span>Hace 4 meses</span>
+                                </div>
                             </div>
                         </article>
                         <article class="review-card">
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">Las probe en una reunion, y me parecieron RIQUISIMAS! Grandes, hojaldraditas, y sabrosas.</p>
                             <div class="review-card__author">
-                                <strong>Carolina</strong>
-                                <span>Hace 6 meses</span>
+                                <div class="review-card__avatar" style="background:#ab47bc">C</div>
+                                <div class="review-card__info">
+                                    <strong>Carolina</strong>
+                                    <span>Hace 6 meses</span>
+                                </div>
                             </div>
                         </article>
                         <article class="review-card">
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">Excelente atencion y empanadas espectaculares. Masa fina, muy buena cantidad y calidad de relleno. Las empanadas fritas no tienen exceso de fritura, al horno la masa es suave y fina. 10 puntos.</p>
                             <div class="review-card__author">
-                                <strong>Jorge Varillas</strong>
-                                <span>Hace 8 meses</span>
+                                <div class="review-card__avatar" style="background:#1565c0">JV</div>
+                                <div class="review-card__info">
+                                    <strong>Jorge Varillas</strong>
+                                    <span>Hace 8 meses</span>
+                                </div>
                             </div>
                         </article>
                         <article class="review-card">
                             <div class="review-card__stars" aria-label="5 de 5 estrellas">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                             <p class="review-card__text">La atencion de lo mejor. La masa es muy buena y son sequitas. Te las dan envueltas en papel y atadas con hilo, un lujo de principio a fin.</p>
                             <div class="review-card__author">
-                                <strong>Gustavo Andriuolo</strong>
-                                <span>Hace 10 meses</span>
+                                <div class="review-card__avatar" style="background:#2e7d32">GA</div>
+                                <div class="review-card__info">
+                                    <strong>Gustavo Andriuolo</strong>
+                                    <span>Hace 10 meses</span>
+                                </div>
                             </div>
                         </article>
                     </div>
@@ -427,6 +447,7 @@
                         <li><a href="#horarios">Horarios</a></li>
                         <li><a href="#productos">Productos</a></li>
                         <li><a href="#historia">Historia</a></li>
+                        <li><a href="/blog/">Blog</a></li>
                         <li><a href="#como-llegar">Como llegar</a></li>
                     </ul>
                 </div>
