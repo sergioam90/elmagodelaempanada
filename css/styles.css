@@ -855,6 +855,13 @@ table { border-collapse: collapse; width: 100%; }
     font-size: 0.8rem;
     color: #999;
 }
+.blog-card__author {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.25rem;
+}
 
 /* Article page */
 .article {
@@ -882,6 +889,20 @@ table { border-collapse: collapse; width: 100%; }
 .article__meta {
     color: var(--color-text-light);
     font-size: 0.9rem;
+}
+.article__author {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.25rem;
+}
+.article__author svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
 }
 .article__img {
     margin-bottom: 2rem;
